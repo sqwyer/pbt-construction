@@ -8,9 +8,15 @@ function App() {
           Pulliam-Bivens Tutoring
         </h1>
         <p className="text-slate-600">Personalized tutoring with a perfect scoring PSAT and ACT scorer. Contact us for rates and availability.</p>
-        <a href="mailto:jbpulliam06@icloud.com" className="flex flex-row gap-2 items-center cursor-pointer text-blue-600">
-          <img src={Mail} alt="Email: " className="h-4" /> <span>jbpulliam06@icloud.com</span>
-        </a>
+        <div className="flex flex-row gap-2">
+          <a href="mailto:jbpulliam06@icloud.com" className="flex flex-row gap-2 items-center cursor-pointer text-blue-600">
+            <img src={Mail} alt="Email: " className="h-4" /> <span>jbpulliam06@icloud.com</span>
+          </a>
+          <span className="text-gray-600">•</span>
+          <a href="mailto:sawyerbivens06@icloud.com" className="flex flex-row gap-2 items-center cursor-pointer text-blue-600">
+            <img src={Mail} alt="Email: " className="h-4" /> <span>sawyerbivens06@gmail.com</span>
+          </a>
+        </div>
       </div>
 
       <div className="p-4 bg-gray-50 rounded-md max-w-96 text-left flex flex-col gap-2">
