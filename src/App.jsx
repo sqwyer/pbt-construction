@@ -2,8 +2,8 @@ import Mail from "/mail.svg"
 
 function App() {
   return (
-    <div className="min-h-screen flex justify-center items-center flex-col gap-2 p-20 text-center">
-      <h1 className="text-3xl md:text-5xl font-bold">
+    <div className="min-h-screen flex justify-center items-center flex-col gap-2 p-10 text-center">
+      <h1 className="text-2xl md:text-5xl font-bold">
         Pulliam-Bivens Tutoring
       </h1>
       <p className="text-slate-600">One on one tutoring with a perfect scoring PSAT and ACT scorer. Contact us for rates and availability.</p>
